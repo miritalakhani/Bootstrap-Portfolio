@@ -1,115 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <head>
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<body>
-<!-- Navbar -->
-<nav class ="navbar navbar-inverse navbar-fixed-top" id='my-navbar'>
-  <div class='container'>
-  <div class="col-lg-6">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <title>Mirita Portfolio</title>
 
-      <a href="index.html" class="navbar-brand">Mirita Lakhani</a>
-    </div>  <!--Navbar Header-->
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
-    </div> <!--End Col-lg-6-->
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
-    <div class="col-lg-6">
+  </head>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">About</a>
-          <li><a href="portfolio.html">Portfolio</a>
-          <li><a href="contact.html">Contact</a>
-        </ul>
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Mirita Lakhani</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="index.html">About</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
         </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
 
-         </div> <!--End Col-lg-6-->
-</div>   <!--End Container-->
-</nav>   <!--End Navbar-->
+    <!-- Start of content wrap -->
+    <div class="wrap">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+            <section id="portfolio-area">
+              <h1 class="port-header">Portfolio</h1>
+              <hr class="port-hr"/>
 
-<!-- Jumbotron -->
-<div class="jumbotron">
-  <div id="main-container" class="container">
+              <div class="row">
+                <div class=" col  s12 l5 m5 offset-l1 offset-m1">
+                <div class="aboutProject">
+                  <div class="project-title"><strong>Kontanta</strong></div>
+                  <img src="assets/imgs/kontanta.png" class="responsive-img" width="66%" />
+      
 
-  <div class="col-lg-8">
+                      <div class="row">
+                        <ul class="btn col s2 m2 l2 offset-l3 offset-m3 offset-s3 brown">
+                        <a class="btn btn-info" href="https://github.com/brm5050/Kontanta" target="_blank">Code</a>
+                        <a class="btn btn-info" href="https://fast-ridge-90242.herokuapp.com/" target="_blank">Demo</a>
+                        </ul>
+                      </div>
 
-    <section class="main-section">
-      <h3>Portfolio</h3>
+                       <p>Our app is designed to ease the process of adopting and donating pets. The app provides a safe shelter for pets. Users are able to add in a picture of their pet. Also, users are able to adopt pets. The app is built using Bootstrap, Express, Handlebars and My SQL Workbench
+                       </p>
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+                  </div>
+                </div>
 
-        <h3>Hangman</h3>
+              </div>
+
+              <div class="row">
+                <div class=" col  s12 l5 m5 offset-l1 offset-m1">
+                <div class="aboutProject">
+                  <div class="project-title"><strong>Burger</strong></div>
+                  <img src="assets/imgs/burger.png" class="responsive-img" width="66%"/>
+      
+
+                      <div class="row">
+                        <ul class="btn col s2 m2 l2 offset-l3 offset-m3 offset-s3 brown">
+                        <a class="btn btn-info" href="https://github.com/miritalakhani/Burger_Sequelize" target="_blank">Code</a>
+                        <a class="btn btn-info" href="https://powerful-castle-26637.herokuapp.com/burger" target="_blank">Demo</a>
+                        </ul>
+                      </div>
+
+
+                       <p>Burger web app is using MySQL, Node, Express, Handlebars and a ORM. It follows the MVC design pattern; uses Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
+                       </p>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <div class="row">
+                <div class=" col  s12 l5 m5 offset-l1 offset-m1">
+                <div class="aboutProject">
+                  <div class="project-title"><strong>News-Scrape-using-Mongo</strong></div>
+                  <img src="assets/imgs/NYT.png" class="responsive-img" width="66%" />
+      
+
+                      <div class="row">
+                        <ul class="btn col s2 m2 l2 offset-l3 offset-m3 offset-s3 brown">
+                        <a class="btn btn-info" href="https://github.com/miritalakhani/News-Scrape-using-Mongo" target="_blank">Code</a>
+                        <a class="btn btn-info" href="https://miritalakhani.github.io/News-Scrape-using-Mongo/" target="_blank">Demo</a>
+                        </ul>
+                      </div>
+
+
+                       <p>The News-Scrape-using-Mongo web app allows user to leave comments on the latest news. It uses Mongoose to scrape news from New York Times site.
+                       </p>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            
+
+            </section>
+          </div>
+          <div class="col-md-4">
+
+            <!-- Start of Connect With Me Area -->
+            <section id="connect-with-me-area">
+              <div class="connect-with-me-content">
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                  <a href="https://github.com/miritalakhani" target="-blank"><img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
+                  <a href="https://www.linkedin.com/in/miritamistry" target="-blank"><img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
+                  <a href="https://talent.stackoverflow.com/users/login" target="-blank"><img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
+                </div>
+              </div>
+            </section>
+            <!-- End of the Connect With Me Area -->
+            
+          </div>
+        </section>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-    </div> <!--End Col-lg-8-->
-
-    <div class="col-lg-4">
-
-    <section class="sidebar">
-      <div id="connect">
-        <h3>Connect with Me</h3>
-
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-
-    </div> <!--End Col-lg-4-->
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2017 Mirita Lakhani
     </div>
-  </footer>
+    <!-- End of content wrap -->
 
-  </div>  <!--End Jumbotron-->
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright 2017 Mirita Lakhani
+      </p>
+    </footer>
+    <!-- End of footer -->
 
-<script src = "https://code.jquery.com/jquery-3.2.0.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
-</body>
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </body>
 
 </html>
